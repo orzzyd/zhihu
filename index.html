@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>首页-知乎</title>
+	<!-- my CSS -->
+	<link rel="stylesheet" href="css/_global.css">
+	<link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="header-content-area">
+			<a class="zhihu-logo" href="index.html">
+				<img src="img/zhihu_logo.png" alt="知乎">
+			</a>
+			<form action="">
+				<input type="text" placeholder="搜索话题、问题或人...">
+				<button type="submit" class="header-content-area-form-enter">
+					<i></i>
+				</button>
+			</form>
+			<button class="btn-make-question">提问</button>
+			<ul class="header-nav">
+				<a href="index.html">
+					<li id="active-page">首页</li>
+				</a>
+				<a href="html/topic.html">
+					<li>话题</li>
+				</a>
+				<a href="html/explore.html">
+					<li>发现</li>
+				</a>
+				<a href="#">
+					<li>消息</li>
+				</a>
+			</ul>
+			<div class="user-bar">
+				<div class="icon-username">
+					<a href="#">
+						<img src="img/liukanshan.jpg" class="userbar-icon" alt="user icon">
+						<span>刘看山</span>
+					</a>
+				</div>
+				<ul class="user-bar-dropdown">
+					<a href="#">
+						<li>
+							<div class="sprite-icon home"></div>
+							<span>我的主页</span>
+						</li>
+					</a>
+					<a href="#">
+						<li>
+							<div class="sprite-icon message"></div>
+							<span>私信</span>
+						</li>
+					</a>
+					<a href="#">
+						<li>
+							<div class="sprite-icon setting"></div>
+							<span>设置</span>
+						</li>
+					</a>
+					<a href="#">
+						<li class="border-bottom-radius">
+							<div class="sprite-icon exit"></div>
+							<span>退出</span>
+						</li>
+					</a>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--header end-->
+	<!--main content -->
+	<div class="main-content">
+		<!--main content left-->
+		<div class="main-content-left">
+			<div class="main-content-left-topbar">
+				<div class="new-trend">
+					<div class="trend-icon"></div>
+					<strong>最新动态</strong>
+				</div>
+				<a href="#" class="main-setting">
+					<div class="main-setting-icon"></div>设置
+				</a>
+			</div>
+			<hr class="hr-darker">
+			<div class="content-item">
+				<div class="content-item-question">
+					<a href="#"><img src="img/fe-dev.jpg" alt="..."></a>
+					<div class="content-item-question-text">
+						<span>热门回答，来自<a href="#" class="a-blue-underline">吉祥物</a></span>
+						<br>
+						<a href="#" class="a-blue-underline">刘看山为什么叫做刘看山？</a>
+						<p>对啊对啊刘看山为什么叫做刘看山？</p>
+					</div>
+				</div>
+				<div class="content-item-answer">
+					<div class="content-item-answer-vote">
+						<a href="#">
+							<div class="content-item-answer-vote-good">
+								<i class="arrow-good"></i>
+								<div>14</div>
+							</div>
+						</a>
+						<a href="#">
+							<div class="content-item-answer-vote-bad"><i class="arrow-bad"></i></div>
+						</a>
+					</div>
+					<div class="content-item-answer-text">
+						<span><a href="#" class="content-item-answer-text-person">刘看山</a>,</span>
+						<span class="content-item-answer-text-person-self-introduce">你好，我叫刘看山。</span>
+						<br>
+						<span class="vote-good-person">
+							<a href="#">张三</a>、
+							<a href="#">李四</a>、
+							<a href="#">王二麻子</a>
+							<a href="#">等人赞同</a>
+						</span>
+						<br>
+						<div>
+							<p>刘看山的爸爸从小就喜欢看自家门前的那座雄伟的冰山，并且一直幻想着有朝一日能够征服它，站在山顶看着山下的景色，但是这个愿望直到刘看山出生也没能实现，冰山却因为天气越来越热融化掉了。</p>
+							<p>刘爸爸为了纪念这座冰山，也是为了纪念自己从小的愿望，给自己的儿子取名叫做“刘看山”。</p>
+						</div>
+						<span class="edit-time"><a href="#">编辑于 2015-13-32</a></span>
+						<br>
+						<span class="content-item-answer-bar">
+							<a href="#"><i class="content-item-answer-bar-followQuestion"></i>关注问题</a>
+							<a href="#"><i class="content-item-answer-bar-comment"></i>13条评论</a>
+							<span>
+								<a href="#"><i class="content-item-answer-bar-thanks"></i>感谢</a>
+								<a href="#"><i class="content-item-answer-bar-share"></i>分享</a>
+								<a href="#"><i class="content-item-answer-bar-collect"></i>收藏</a>
+								• <a href="#">没有帮助</a>
+								• <a href="#">举报</a>
+								<a href="#" class="unexpend"><i class="content-item-answer-bar-unexpend"></i>收起</a>
+							</span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<!--preview-->
+			<div class="content-item content-item-preview">
+				<div class="content-item-question">
+					<a href="#"><img src="img/fe-dev.jpg" alt="..."></a>
+					<div class="content-item-question-text">
+						<span>热门回答，来自<a href="#" class="a-blue-underline">吉祥物</a></span>
+						<br>
+						<a href="#" class="a-blue-underline">刘看山为什么叫做刘看山？</a>
+					</div>
+				</div>
+				<div class="content-item-answer">
+					<div class="content-item-answer-vote">
+						<a href="#">
+							<div class="content-item-answer-vote-good no-arrow">
+								<div>14</div>
+							</div>
+						</a>
+					</div>
+					<div class="content-item-answer-text">
+						<span><a href="#" class="content-item-answer-text-person">刘看山</a>,</span>
+						<span class="content-item-answer-text-person-self-introduce">你好，我叫刘看山。</span>
+						<br>
+						<div class="expand-view-all">
+							刘看山的爸爸从小就喜欢看自家门前的那座雄伟的冰山，并且一直幻想着有朝一日能够征服它，站在山顶看着山下的景色...
+							<span class="view-all">显示全部</span>
+						</div>
+						<span class="content-item-answer-bar">
+							<a href="#"><i class="content-item-answer-bar-followQuestion"></i>关注问题</a>
+							<a href="#"><i class="content-item-answer-bar-comment"></i>13条评论</a>
+							<span class="content-item-answer-bar-hide">
+								<a href="#"><i class="content-item-answer-bar-thanks"></i>感谢</a>
+								<a href="#"><i class="content-item-answer-bar-share"></i>分享</a>
+								<a href="#"><i class="content-item-answer-bar-collect"></i>收藏</a>
+								• <a href="#">没有帮助</a>
+								• <a href="#">举报</a>
+								</span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<!--preview end-->
+			<hr>
+			<div class="content-item">
+				<div class="content-item-question">
+					<a href="#"><img src="img/fe-dev.jpg" alt="..."></a>
+					<div class="content-item-question-text">
+						<span>热门回答，来自<a href="#" class="a-blue-underline">吉祥物</a></span>
+						<br>
+						<a href="#" class="a-blue-underline">刘看山为什么叫做刘看山？</a>
+						<p>对啊对啊刘看山为什么叫做刘看山？</p>
+					</div>
+				</div>
+				<div class="content-item-answer">
+					<div class="content-item-answer-vote">
+						<a href="#">
+							<div class="content-item-answer-vote-good">
+								<i class="arrow-good"></i>
+								<div>14</div>
+							</div>
+						</a>
+						<a href="#">
+							<div class="content-item-answer-vote-bad"><i class="arrow-bad"></i></div>
+						</a>
+					</div>
+					<div class="content-item-answer-text">
+						<span><a href="#" class="content-item-answer-text-person">刘看山</a>,</span>
+						<span class="content-item-answer-text-person-self-introduce">你好，我叫刘看山。</span>
+						<br>
+						<span class="vote-good-person">
+							<a href="#">张三</a>、
+							<a href="#">李四</a>、
+							<a href="#">王二麻子</a>
+							<a href="#">等人赞同</a>
+						</span>
+						<br>
+						<div>
+							<p>刘看山的爸爸从小就喜欢看自家门前的那座雄伟的冰山，并且一直幻想着有朝一日能够征服它，站在山顶看着山下的景色，但是这个愿望直到刘看山出生也没能实现，冰山却因为天气越来越热融化掉了。</p>
+							<p>刘爸爸为了纪念这座冰山，也是为了纪念自己从小的愿望，给自己的儿子取名叫做“刘看山”。</p>
+						</div>
+						<span class="edit-time"><a href="#">编辑于 2015-13-32</a></span>
+						<br>
+						<span class="content-item-answer-bar">
+							<a href="#"><i class="content-item-answer-bar-followQuestion"></i>关注问题</a>
+							<a href="#"><i class="content-item-answer-bar-comment"></i>13条评论</a>
+							<span>
+								<a href="#"><i class="content-item-answer-bar-thanks"></i>感谢</a>
+								<a href="#"><i class="content-item-answer-bar-share"></i>分享</a>
+								<a href="#"><i class="content-item-answer-bar-collect"></i>收藏</a>
+								• <a href="#">没有帮助</a>
+								• <a href="#">举报</a>
+								<a href="#" class="unexpend"><i class="content-item-answer-bar-unexpend"></i>收起</a>
+							</span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<!--preview-->
+			<div class="content-item content-item-preview">
+				<div class="content-item-question">
+					<a href="#"><img src="img/fe-dev.jpg" alt="..."></a>
+					<div class="content-item-question-text">
+						<span>热门回答，来自<a href="#" class="a-blue-underline">吉祥物</a></span>
+						<br>
+						<a href="#" class="a-blue-underline">刘看山为什么叫做刘看山？</a>
+					</div>
+				</div>
+				<div class="content-item-answer">
+					<div class="content-item-answer-vote">
+						<a href="#">
+							<div class="content-item-answer-vote-good no-arrow">
+								<div>14</div>
+							</div>
+						</a>
+					</div>
+					<div class="content-item-answer-text">
+						<span><a href="#" class="content-item-answer-text-person">刘看山</a>,</span>
+						<span class="content-item-answer-text-person-self-introduce">你好，我叫刘看山。</span>
+						<br>
+						<div class="expand-view-all">
+							刘看山的爸爸从小就喜欢看自家门前的那座雄伟的冰山，并且一直幻想着有朝一...
+							<span class="view-all">显示全部</span>
+						</div>
+						<span class="content-item-answer-bar">
+							<a href="#"><i class="content-item-answer-bar-followQuestion"></i>关注问题</a>
+							<a href="#"><i class="content-item-answer-bar-comment"></i>13条评论</a>
+							<span class="content-item-answer-bar-hide">
+								<a href="#"><i class="content-item-answer-bar-thanks"></i>感谢</a>
+								<a href="#"><i class="content-item-answer-bar-share"></i>分享</a>
+								<a href="#"><i class="content-item-answer-bar-collect"></i>收藏</a>
+								• <a href="#">没有帮助</a>
+								• <a href="#">举报</a>
+								</span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<!--preview end-->
+			<hr>
+		</div>
+		<!--main content left end-->
+		<!--main content right-->
+		<div class="main-content-right">
+			<div class="weekly">
+				<a href="#"><img src="img/weekly-87.png" alt="知乎周刊"></a>
+			</div>
+			<ul>
+				<a href="#">
+					<li>
+						<div class="right-content-icon" id="myDraft"></div>我的草稿
+					</li>
+				</a>
+				<a href="#">
+					<li>
+						<div class="right-content-icon" id="myCollect"></div>我的收藏
+					</li>
+				</a>
+				<a href="#">
+					<li>
+						<div class="right-content-icon" id="myFocusQuestion"></div>我关注的问题
+					</li>
+				</a>
+				<a href="#">
+					<li>
+						<div class="right-content-icon" id="questionInvitedMe"></div>邀请我回答的问题
+					</li>
+				</a>
+			</ul>
+			<hr>
+			<ul>
+				<a href="#">
+					<li>
+						<div class="right-content-icon" id="allQuestion"></div>所有问题
+					</li>
+				</a>
+				<a href="#">
+					<li>
+						<div class="right-content-icon" id="topicSquare"></div>话题广场
+					</li>
+				</a>
+				<a href="#">
+					<li>
+						<div class="right-content-icon" id="publicEditTrend"></div>公共编辑动态
+					</li>
+				</a>
+				<a href="#">
+					<li>
+						<div class="right-content-icon" id="communityServiceCenter"></div>社区服务中心
+					</li>
+				</a>
+			</ul>
+			<hr>
+			<div class="div-desk-topic">
+				<strong>知乎圆桌</strong>
+				<a href="#" class="look-all a-blue-underline">查看全部 »</a>
+			</div>
+			<ul>
+				<a href="#" class="a-desk-topic">
+					<li><img src="img/hack.jpg" alt="icon">白帽黑客与安全</li>
+				</a>
+				<a href="#" class="a-desk-topic">
+					<li><img src="img/universe.jpg" alt="icon">宇宙那么大</li>
+				</a>
+				<a href="#" class="a-desk-topic">
+					<li><img src="img/theatre.jpg" alt="icon">剧场内外</li>
+				</a>
+			</ul>
+			<hr>
+			<div class="div-desk-topic">
+				<strong>常去话题</strong>
+				<a href="#" class="look-all a-blue-underline">查看全部 »</a>
+			</div>
+			<ul>
+				<a href="#" class="a-desk-topic">
+					<li><img src="img/music.jpg" alt="icon">音乐</li>
+				</a>
+				<a href="#" class="a-desk-topic">
+					<li><img src="img/web.jpg" alt="icon">互联网</li>
+				</a>
+				<a href="#" class="a-desk-topic">
+					<li><img src="img/bussiness.jpg" alt="icon">电子商务</li>
+				</a>
+			</ul>
+			<hr>
+			<div class="right-footer">
+				<a href="#">知乎指南</a>
+				<span>•</span>
+				<a href="#">建议反馈</a>
+				<span>•</span>
+				<a href="#">移动应用</a>
+				<span>•</span>
+				<a href="#">加入知乎</a>
+				<a href="#">知乎协议</a>
+				<span>•</span>
+				<a href="#">商务合作</a>
+				<span>© 2015 知乎</span>
+			</div>
+		</div>
+		<!--main content right end-->
+	</div>
+	<!--main content end-->
+	<!-- jQuery -->
+	<script type="text/javascript" src="js/jquery-1.11.3/jquery-1.11.3.min.js"></script>
+	<!-- my script -->
+	<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+
+</html>

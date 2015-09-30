@@ -1,0 +1,142 @@
+.main-content-right{
+	color: #999;
+	font-size: 13px;
+}
+.main-content-right a{
+	color: #259;
+}
+.main-content-right a:hover{
+	text-decoration: underline;
+}
+.main-content-right .title-hot{
+	font-weight: bolder;
+	font-size: 14px;
+	color: #666;
+}
+.main-content-right .title-more a{
+	float: right;
+	color: #999;
+	font-size: 12px;
+ }
+.main-content-right .title-more a:hover{
+	color: #259;
+ }
+.explore-right-hot-topic-items,
+.explore-right-hot-desk-items{
+	padding: 8px 0px;
+}
+.explore-right-hot-collect-items{
+	padding: 2px 0px;
+}
+.explore-right-hot-collect-items span{
+	line-height: 20px;
+}
+.explore-right-hot-topic-items img,
+.explore-right-hot-desk-items img{
+	height: 40px;	
+	width: 40px;
+	border-radius: 3px;
+	float: left;
+}
+.explore-right-hot-desk-items-words,
+.explore-right-hot-topic-items-words{
+	height: 40px;
+	padding-left: 50px;
+	line-height: 20px;
+}
+ /*.explore-right-hot-desk-items-words .n-days-more{
+	 float: right;
+ }*/
+ .explore-right-hot-topic-items-question{
+	 margin-top: 8px;
+ }
+
+.right-footer a{
+	color: #999;
+}
+.right-footer a:hover{
+	color: #999;
+	text-decoration: underline;
+}
+.right-footer span{
+	color: #999;
+	line-height: 25px;
+	margin: 0px 2px;
+}
+/*explore left topbar*/
+.main-content-left-topbar{
+	height: 20px;
+	width: 100%;
+	color: #444;
+}
+.editor-suggest{
+	float: left;
+}
+.editor-suggest-item{
+	font-size: 14px;
+	font-weight: bolder;
+	color: #259;
+}
+.editor-suggest-item:hover{
+	text-decoration: underline;
+}
+.trend-icon{
+	height: 16px;
+	width: 16px;
+	background-image: url(../img/sprite-icon.png);
+	background-position: -71px -88px;
+	display: inline-block;
+	position: relative;
+	top: 4px;
+	padding-right: 2px;
+}
+.more-suggest{
+	float: right;
+	color: gray;
+}
+.more-suggest:hover{
+	text-decoration: underline;
+	color: #698ebf;
+}
+/*explore left topbar end*/
+.hot-nav{
+	border-bottom: 1px #cccccc solid;
+	margin-bottom: 20px;
+}
+/*nav*/
+.hot-nav a{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	width: 80px;
+	list-style: none;
+	color: #666;
+	text-align: center;
+	margin-bottom: -1px;
+	font-size: 12px;
+	border-radius: 2px;
+}
+.hot-nav a:focus{
+	outline-style:none;
+}
+.hot-nav .with-border{
+	border: 1px solid #cccccc;
+	border-bottom: 1px solid white;
+	cursor: default;
+}
+.hot-nav .none-border{
+	border: none;
+}
+.hot-nav .none-border:hover{
+	background-color: #eee;
+}
+/*nav end*/
+.content-item .hot-item-title{
+	color: #259;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bolder;
+}
+.content-item .hot-item-title:hover{
+	text-decoration: underline;
+}
